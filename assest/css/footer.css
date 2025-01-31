@@ -1,0 +1,41 @@
+footer {
+
+  background-color: #76172d;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+ 
+
+ 
+
+}
+
+footer p {
+  color: #F1DEDC;
+text-align: center;
+font-family: Poppins;
+font-size: 23.4px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+i {
+  color: #F1DEDC;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+

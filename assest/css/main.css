@@ -1,0 +1,57 @@
+@import "./header.css";
+@import "./navbar.css";
+@import "./responsive.css";
+@import "./footer.css";
+@import "./contact.css";
+@import "./blog-cards.css";
+@import "./blog-post.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.page-background {
+  background-color: #f1dedc;
+
+
+  background: 
+    
+     url("../imgs/sakura.png") #f1dedc 2.925px -170.151px / 100% 109% no-repeat;
+  min-height: 100vh;
+ 
+}
+.title {
+  text-align: center;
+  color: #76172d;
+  margin: 30px 0;
+  font-size: 32px;
+  position: relative;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 0.8px;
+  background-color: #76172d;
+}
+
+.title::before {
+  left: 0;
+}
+
+.title::after {
+  right: 0;
+}

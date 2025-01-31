@@ -1,0 +1,95 @@
+#contact {
+    margin-top: 50px;
+    background: rgba(238, 162, 180, 0.18); 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 30px;
+    display: grid;
+    gap: 20px; 
+
+}
+
+
+
+form {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    border-radius: 23px;
+    border: 0.3px solid #76172D;
+    background: rgba(238, 162, 180, 0.3);
+    backdrop-filter: blur(2px);
+    padding: 16px;
+    color: #76172D;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 400px;
+    box-sizing: border-box; 
+    margin: 0 auto; 
+}
+
+#contact::before, #contact::after {
+    content: "";
+  position: absolute;
+  top: 5%;
+  width: 24%;
+  height: 0.8px;
+  background-color: #76172d;
+}
+
+#contact::before {
+    left: 40px; 
+}
+
+#contact::after {
+    right: 40px;
+}
+
+#contact h2 {
+    color: #76172D;
+text-align: center;
+font-family: Aboreto;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+button {
+    width: 50%; 
+    height: 40px;
+    border-radius: 15px;
+    background: #76172D;
+    color: #F1DEDC;
+    border: none;
+    cursor: pointer; 
+    text-align: center;
+    margin: 0 auto; 
+}
+
+
+
+#message {
+    height: 100px; 
+}
+
+input::placeholder, textarea::placeholder {
+    color: #76172D; 
+    opacity: 1; 
+}
+

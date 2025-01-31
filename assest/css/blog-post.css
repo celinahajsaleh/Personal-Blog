@@ -1,0 +1,38 @@
+.content {
+  background: rgba(238, 162, 180, 0.18); 
+  backdrop-filter: blur(2px); 
+  padding: 20px; 
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 0; 
+}
+
+.profile-text {
+  color: #54202C;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2; 
+  margin-right: 50px;
+  margin-top:30px;
+  flex: 1; 
+}
+
+.profile-img {
+  margin-top:30px;
+
+  width: 200px; 
+  height: auto;
+  border-radius: 30px; 
+  flex-shrink: 0; 
+}
+h2{
+  font-family: Aboreto;
+
+}
